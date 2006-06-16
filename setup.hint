@@ -1,0 +1,4 @@
+category: Python Audio
+requires: cygwin python libannodex0
+sdesc: "Python libannodex bindings"
+ldesc: "Python libannodex bindings"

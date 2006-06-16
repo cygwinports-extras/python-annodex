@@ -1,0 +1,67 @@
+pyannodex
+------------------------------------------
+Python bindings for libannodex.
+
+Runtime requirements:
+  cygwin-1.5.20-1 (20060604)
+  libannodex0-0.7.3-1
+  python-2.4.3-1
+
+Build requirements:
+(besides corresponding -devel packages)
+  cygwin-1.5.20-1 (20060604)
+  binutils-20050610-1
+  cygport-0.2.1-1
+  gcc-core-3.4.4-1
+  python-2.4.3-1
+
+Canonical website:
+  http://benno.id.au/code/pyannodex/
+
+-------------------------------------------
+
+Build instructions:
+  unpack pyannodex-0.7.3-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./pyannodex-0.7.3-X.sh all
+
+This will create:
+  /usr/src/pyannodex-0.7.3-X-src.tar.bz2
+  /usr/src/pyannodex-0.7.3-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/bin/anxenc.py
+  /usr/bin/anxgrep.py
+  /usr/bin/anxinfo.py
+  /usr/bin/anxrip.py
+  /usr/lib/python2.4/site-packages/annodex/__init__.py
+  /usr/lib/python2.4/site-packages/annodex/__init__.pyc
+  /usr/lib/python2.4/site-packages/annodex/__init__.pyo
+  /usr/lib/python2.4/site-packages/annodex/_annodex.dll
+  /usr/lib/python2.4/site-packages/annodex/anx.py
+  /usr/lib/python2.4/site-packages/annodex/anx.pyc
+  /usr/lib/python2.4/site-packages/annodex/anx.pyo
+  /usr/lib/python2.4/site-packages/annodex/anx_types.py
+  /usr/lib/python2.4/site-packages/annodex/anx_types.pyc
+  /usr/lib/python2.4/site-packages/annodex/anx_types.pyo
+  /usr/share/doc/Cygwin/pyannodex-0.7.3.README
+  /usr/share/doc/pyannodex-0.7.3/AUTHORS
+  /usr/share/doc/pyannodex-0.7.3/COPYING
+  /usr/share/doc/pyannodex-0.7.3/NEWS
+  /usr/share/doc/pyannodex-0.7.3/README
+
+------------------
+
+Port Notes:
+
+----- version 0.7.3-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
