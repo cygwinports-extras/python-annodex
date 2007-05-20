@@ -1,0 +1,4 @@
+inherit distutils
+
+HOMEPAGE="http://benno.id.au/code/pyannodex/"
+SRC_URI="http://benno.id.au/code/pyannodex/${ORIG_PN}-${PV}.tar.gz"
